@@ -10,7 +10,6 @@ export default observer(function Authorisation() {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
     const [usernameMessage, setUsernameMessage] = useState('')
-    const [emailMessage, setEmailMessage] = useState('')
     const [passwordMessage, setPasswordMessage] = useState('')
 
     const { store } = useContext(Context)
